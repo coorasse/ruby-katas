@@ -1,5 +1,5 @@
 require 'spec_helper'
-require './src/missing_letter.rb'
+require './src/simple/missing_letter.rb'
 
 RSpec.describe MissingLetter do
   subject(:kata) { described_class.new }
